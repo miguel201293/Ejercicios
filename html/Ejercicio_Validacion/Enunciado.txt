@@ -1,0 +1,4 @@
+Dado el formulario inicial validar los campos:
+
+1.Todos los campos deben marcarse como obligatorios.
+2.Los campos relacionados con tarjeta de crédito y CVC deben tener una validación sobre la longitud máxima.
