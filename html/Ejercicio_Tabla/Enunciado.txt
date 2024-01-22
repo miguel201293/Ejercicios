@@ -1,0 +1,7 @@
+Cree una tabla con tres columnas: título, entradas de efectivo de los usuarios y salidas de efectivo de los usuarios.
+
+1.La primera columna debe contener los nombres de los meses.
+2.La segunda columna debe contener las entradas de efectivo.
+3.La tercera columna debe contener las salidas de efectivo.
+4.La primera fila debe contener el encabezado de la tabla.
+5.La última fila debe tener la suma de los valores ( consejo: no utilice JavaScript, solo texto codificado).
