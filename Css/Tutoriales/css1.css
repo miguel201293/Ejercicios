@@ -1,3 +1,13 @@
-main{
-    background-color: red;
+/* Añadimos estilo a un elemento*/
+section{
+    background-color: #9999ef;
+}
+/* Añadimos estilo por el atributo id*/
+#recipe{
+    background-color: #9999ef;
+    color: white;
+}
+/* Añadimos un estilo por clases*/
+.importante{
+    font-weight: bold;
 }
