@@ -1,0 +1,49 @@
+body {
+    color: lightslategray;
+  }
+  
+  blockquote {
+    background-color: rgba(0, 12, 24, 0.05);
+  }
+  
+  a {
+    border: 1px dashed red;
+  }
+  
+  em {
+    color: darkred;
+  }
+  /*4.Los párrafos dentro blockquotede la clase content1deben tener un borde sólido de 1px.*/
+  .content1 p{
+    border: 1px solid black;
+  }
+  /*5.La clase variant-emdebe tener un greenyellowfondo, color negro/texto en negrita y heredar font-styledel padre*/
+  .variant-em {
+    font-style: inherit;
+    font-weight: bold;
+    color: black;
+    background-color: greenyellow;
+  }
+  
+  ul {
+    background-color: unset;
+  }
+  
+  ul li {
+    padding: 16px;
+  }
+  /*1.la clase link1 hereda valores de su padre*/
+  .link1 a {
+    color: inherit;
+    padding: inherit;
+  }
+  /*2.class link2 establece los valores a los iniciales*/
+  .link2 a {
+    color: initial;
+    padding: initial;
+  }
+  /*3.class link3 restaura las propiedades a su valor natural*/
+  .link3 a {
+    color: unset;
+    padding: unset;
+  }
