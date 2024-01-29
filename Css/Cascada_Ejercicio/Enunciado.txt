@@ -1,0 +1,9 @@
+Edite el estilo.css.
+
+Las link1clases deben cambiar el color del texto y el relleno para que link2:link3
+
+1.la clase link1 hereda valores de su padre
+2.class link2 establece los valores a los iniciales
+3.class link3 restaura las propiedades a su valor natural
+4.Los párrafos dentro blockquotede la clase content1deben tener un borde sólido de 1px.
+5.La clase variant-emdebe tener un greenyellowfondo, color negro/texto en negrita y heredar font-styledel padre
