@@ -1,0 +1,14 @@
+/*1.Cree un archivo CSS y escriba una regla que le dé el color 'azul' al texto h1.*/
+h1{
+    color:blue
+}
+/*2.Escribe una regla que dé el color "gris claro" al fondo del cuerpo.*/
+/*4.Escribe una regla que dé Arial, sans-serif como familia de fuentes para todos los textos.*/
+body{
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+/*3.Escribe una regla que dé un tamaño de fuente de 20 píxeles a la etiqueta p.*/
+p{
+    font-size: 20px;
+}
