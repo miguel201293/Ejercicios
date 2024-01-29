@@ -6,7 +6,15 @@ section{
 #recipe{
     background-color: #9999ef;
     color: white;
+    border: 3px solid black;
     text-align: center;
+}
+table{
+    border: inherit;
+    color: initial;
+}
+ol{
+    all:unset;
 }
 /* Añadimos un estilo por clases*/
 .importante{
