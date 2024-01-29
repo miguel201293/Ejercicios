@@ -1,11 +1,12 @@
 /* Añadimos estilo a un elemento*/
 section{
-    background-color: #9999ef;
+    background-color: white;
 }
 /* Añadimos estilo por el atributo id*/
 #recipe{
     background-color: #9999ef;
     color: white;
+    text-align: center;
 }
 /* Añadimos un estilo por clases*/
 .importante{
