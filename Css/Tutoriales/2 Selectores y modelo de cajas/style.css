@@ -1,0 +1,14 @@
+/* añadimos estilo al input de email*/
+input[type="email"]{
+    border: 2px solid blue;
+}
+/* añadimos estilo a la imagen con texto alternativo (alt)*/
+img[alt]{
+    border: 5px solid rgb(115,214,115);
+}
+/* añadimos estilos a todos los atributos que sean requeridos*/
+*[title="required"]{
+    font-size: 24px;
+    color: red;
+    border: 3px solid red;
+}
