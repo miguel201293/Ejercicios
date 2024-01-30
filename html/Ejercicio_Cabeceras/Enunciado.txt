@@ -1,2 +1,2 @@
-Agregue a headlas etiquetas título, descripción, autor, favicon 
+Agregue a headlas etiquetas título, descripción, autor,favicon 
 y otras propiedades del protocolo Open Graph.
