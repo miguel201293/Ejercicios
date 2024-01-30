@@ -1,13 +1,17 @@
-/* Añadimos estilo a un elemento*/
+
 section{
     background-color: white;
+    border: 5px solid blue;
 }
-/* Añadimos estilo por el atributo id*/
+
 #recipe{
     background-color: #9999ef;
     color: white;
     border: 3px solid black;
     text-align: center;
+}
+.block{
+    border: 3px solid black;
 }
 table{
     border: inherit;
@@ -15,8 +19,12 @@ table{
 }
 ol{
     all:unset;
-}
-/* Añadimos un estilo por clases*/
+}´
+
 .importante{
     font-weight: bold;
+}
+
+ section.block h2{
+    font-size: 36px;
 }
