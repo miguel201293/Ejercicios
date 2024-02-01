@@ -1,0 +1,13 @@
+section{
+    background-color: aqua;
+}
+
+#caja{
+    background-color: red;
+    color: white;
+    width: 240px;
+    height: 240px;
+    padding: 25px;
+    border: 5px solid black;
+    margin: 25px;
+}
