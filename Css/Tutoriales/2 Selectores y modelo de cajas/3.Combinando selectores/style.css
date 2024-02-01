@@ -1,0 +1,19 @@
+
+div{
+    border: 1px solid black;
+}
+/*añadimos estilo a todos los parrafos que esten dentro de una seccion
+ da igual si se encuentra dentro de otra etiqueta dentro de seccion
+section p{
+    color:red;
+    font-weight: bold;
+}
+*/
+/*añadimos estilo a todos los parrafos que esten dentro de una seccion*/
+section > p{
+    color:red;
+    font-weight: bold;
+}
+section{
+    background-color: #eeeeee;
+}
