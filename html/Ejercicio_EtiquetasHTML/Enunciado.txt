@@ -1,3 +1,0 @@
-Algunas etiquetas HTML tienen una estructura predeterminada debido a las reglas del navegador.
-Intente replicar la misma estructura html de solucion.png con las etiquetas correctas.
-La etiqueta principal contiene la etiqueta de estilo, ignórala por ahora.
