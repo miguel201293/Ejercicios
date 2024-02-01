@@ -1,6 +1,0 @@
-Agregar a la página start.html:
-
-1.Un botón desactivado.
-2.Un campo de entrada con etiqueta, en el rango de 0-100 y doble paso (el número del tipo de entrada debe tener el foco en la apertura de la página)
-3.Una casilla de verificación con etiqueta (la casilla de verificación ya debería estar seleccionada)
-4.Un tipo de fecha de entrada.
