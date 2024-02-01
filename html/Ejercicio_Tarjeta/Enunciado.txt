@@ -1,1 +1,0 @@
-Replica la estructura html de la tarjeta en el archivo png, sin aplicar propiedades CSS.
