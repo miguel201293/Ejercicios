@@ -1,0 +1,2 @@
+A partir de la tarjeta que creó en el ejercicio HTML, agregue las propiedades CSS.
+Mire el diseño en el ejemplo.png.

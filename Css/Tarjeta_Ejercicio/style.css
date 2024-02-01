@@ -1,0 +1,40 @@
+/*Creacion de tamaño de tarjeta*/
+html{
+    background-color: #242424;
+}
+.card-container{
+    background-color: white;
+    border:1px solid lightgray;
+    padding: 10px;
+    width: 240px;
+}
+
+.borde-interno{
+    border:1px solid lightgray;
+}
+
+.imagen-container{
+    background-color: lightslategray;
+    color:lightgray;
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-container{
+    padding: 10px;
+}
+
+.elemento{
+    border-top: 1px solid lightgray;
+    padding:  0px 10px;
+    
+}
+.elemento2{
+    border-top: 1px solid lightgray;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    gap: 20px;
+}
