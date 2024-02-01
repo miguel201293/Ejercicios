@@ -1,0 +1,10 @@
+Descargue el zip a continuación y mire el archivo start.html. Crea una hoja de estilos CSS.
+
+1.La tabla debe tener un borde sólido de 1px (color #263238) y un ancho del 50%.
+2.El título de la tabla debe tener un color (#263238), peso de fuente en negrita, tamaño de fuente de 18px y margen inferior (4px).
+3.El encabezado debe tener un color de fondo (#455a64), texto blanco y un peso de fuente 700.
+4.Las filas deben tener un color de fondo diferente (una #eceff1 y la otra #b0bec5).
+5.La última fila de la tabla debe tener un peso de fuente de 800 y un color de fondo #78909c
+6.En el cuerpo de la tabla, la columna de ingresos debe tener el color de texto #003300.
+7.En el cuerpo de la tabla la columna de gastos debe tener un color de texto #7f0000.
+8.Los valores numéricos deben tener el texto alineado a la derecha.
