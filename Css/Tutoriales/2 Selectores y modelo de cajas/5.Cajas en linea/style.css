@@ -1,0 +1,15 @@
+section{
+    background-color: aqua;
+}
+
+.caja{
+    background-color: red;
+    color: white;
+    width: 240px;
+    height: 240px;
+    padding: 25px;
+    border: 5px solid black;
+    margin: 25px;
+    /*display: block; Pueden duplicar la clase ya que si utilizamos otro elemnto dentro duplica todo por columna*/
+    display: inline;/*Pueden duplicar la clase ya que si utilizamos otro elemnto dentro duplica todo por fila*/
+}
