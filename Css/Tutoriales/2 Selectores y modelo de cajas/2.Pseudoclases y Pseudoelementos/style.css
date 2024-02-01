@@ -1,0 +1,23 @@
+/* Añadimos un color para que cambie cuando el cursor este encima de un parrafo*/
+p:hover{
+    background-color: yellow;
+}
+/*Añadimos un color amarrillo al primer parrafo de un padre que aparesca en la web*/
+p:first-child{
+    background-color: yellow;
+}
+/*Añadimos un color amarrillo da igual la posicion en el padre que aparesca en la web*/
+p:first-of-type{
+    background-color: yellow;
+}
+/*Añadimos un color amarrillo al ultimo parrafo de un padre que aparesca en la web*/
+p:last-child{
+    background-color: red;
+}
+/*Añadimos un signo de exlcamacion grande despues de todos los h2*/
+h2::after{
+    content: "!";
+    font-size: 3em;
+    color:yellow;
+    background-color: black;
+}
