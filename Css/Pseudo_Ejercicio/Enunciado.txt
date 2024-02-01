@@ -1,0 +1,12 @@
+Añadir a la primera letra del primer párrafo las siguientes propiedades:
+{
+    float: left;
+    color: darkred;
+    border: 3px ridge darkgoldenrod;
+    padding: 16px;
+    background-color: gold;
+    margin: 8px;
+}
+Agregue las blockquotecomillas al principio y al final del texto.
+El enlace al final de la página debería tener un efecto de desplazamiento CSS.
+Y debería tener un color diferente si ya está visitado.
