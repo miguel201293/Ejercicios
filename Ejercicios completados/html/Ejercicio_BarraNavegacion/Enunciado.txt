@@ -1,0 +1,2 @@
+Intente replicar la estructura html de la barra de navegación en el archivo png,
+sin utilizar propiedades CSS.

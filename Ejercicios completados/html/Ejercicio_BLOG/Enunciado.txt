@@ -1,0 +1,5 @@
+Crea una página de blog HTML.
+
+1.La página debe tener un artículo, un pie de página y un formulario.
+2.El artículo debe tener un título, un párrafo e imágenes de fondo.
+3.El formulario debe tener un campo de correo electrónico obligatorio y un botón de envío.

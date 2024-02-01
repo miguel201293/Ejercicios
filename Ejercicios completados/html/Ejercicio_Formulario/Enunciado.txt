@@ -1,0 +1,12 @@
+Crea un formulario de registro. El formulario debe tener los siguientes campos:
+
+1.Correo electrónico
+2.Contraseña
+3.Nombre y apellido
+4.Fecha de nacimiento
+5.Número de teléfono
+6.Una selección para elegir planes: plan gratuito, un grupo de 3 planes con precio creciente y una casilla de verificación para un Plan Pro
+7.Número de Tarjeta de Crédito
+8.CVC
+9.Fecha de caducidad
+10.Dirección de Envio
