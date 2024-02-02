@@ -1,0 +1,2 @@
+A partir de la barra de navegación que creó en el ejercicio HTML llamado 'Navbar', agregue las propiedades CSS.
+El botón Buscar debe tener un efecto de desplazamiento (fondo verde y texto blanco).
