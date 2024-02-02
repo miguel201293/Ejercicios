@@ -1,0 +1,13 @@
+/*Ponemos un color rojo a los link sin vistar y quitamos tambien el subrayado*/
+a{
+    color:red;
+    text-decoration: none;
+}
+/*Ponemos un color verde a los link visitados*/
+a:visited{
+    color: green;
+}
+/*Ponemos las viñetas de la lista de forma cuadrada*/
+li{
+    list-style: square;
+}
