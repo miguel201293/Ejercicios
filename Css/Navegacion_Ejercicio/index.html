@@ -8,25 +8,27 @@
   </head>
   <body>
     <header>
+      <div class="nav-container">
+        <h1>NavBar</h1>
         <nav>
-            <h1>NavBar</h1>
-            <a href="#">Home</a>
-            <a href="https:\\google.com">Link</a>
-            <select> 
-                <option selected disabled>
-                    Dropdown
-                </option>
-                <option>
-                    Activo
-                </option>
-            </select>
-            <button disabled>Disabled</button>
-            <form>
-                <input type="search" name="Search" placeholder="Search" value="busquedad">
-                <input type="submit" value="Search">
-            </form>
-            
+          <a href="#">Home</a>
+          <a href="https:\\google.com">Link</a>
+          <select>
+            <option selected disabled>Dropdown</option>
+            <option>Activo</option>
+          </select>
+          <button class="btn-desactivo" disabled>Disabled</button>
         </nav>
+      </div>
+      <form>
+        <input
+          type="search"
+          name="Search"
+          placeholder="Search"
+          value="Search"
+        />
+        <input class="btn-search" type="submit" value="Search" />
+      </form>
     </header>
-</body>
+  </body>
 </html>
