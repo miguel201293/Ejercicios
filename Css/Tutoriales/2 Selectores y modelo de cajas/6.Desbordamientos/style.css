@@ -1,0 +1,17 @@
+section{
+    background-color: aqua;
+    max-height: 120px;
+    /*Todo lo que desborde al padre se oculta*/
+    overflow: hidden; 
+}
+/*cajas*/
+.caja{
+    background-color: red;
+    color: white;
+    width: 240px;
+    height: 240px;
+    padding: 25px;
+    border: 5px solid black;
+    margin: 25px;
+    display: block;
+}
