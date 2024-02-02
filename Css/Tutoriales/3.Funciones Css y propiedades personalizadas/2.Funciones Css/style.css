@@ -1,0 +1,38 @@
+html{
+    font-size: 24px;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    color:red
+}
+
+h3 {
+    margin-bottom: 1rem;
+    color:blue;
+}
+
+hr{
+    border-color: black;
+}
+
+.caja{
+    display: block;
+    max-width: 50ch;
+    padding: 25px;
+    border: 5px solid black;
+    margin: 25px;
+    background:linear-gradient(rgb(206, 176, 176),rgb(192, 192, 243));
+}
+
+.caja2{
+    border: 10px solid black;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color:red;
+}
