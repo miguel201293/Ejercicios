@@ -1,0 +1,1 @@
+Vuelva a escribir las reglas utilizando las propiedades personalizadas de CSS.
