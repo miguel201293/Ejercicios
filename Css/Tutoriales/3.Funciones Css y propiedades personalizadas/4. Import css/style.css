@@ -1,0 +1,49 @@
+/*Importamos el archivo de css llamado main.css*/
+@import url(main.css);
+
+/*Importamos el tipo de fuente*/
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto/Roboto-Regular.ttf") format(truetype);
+}
+
+html{
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    color: var(--red)
+}
+
+h3 {
+    margin-bottom: 1rem;
+    color:var(--blue);
+}
+
+hr{
+    border-color: var(--black);
+}
+
+.caja{
+    display: block;
+    max-width: 50ch;
+    padding: 25px;
+    border: 5px solid var(--black);
+    margin: 25px;
+    background:linear-gradient(rgb(206, 176, 176),rgb(192, 192, 243));
+}
+
+.caja2{
+    border: 10px solid var(--black);
+    background:linear-gradient(rgb(206, 176, 176),rgb(192, 192, 243));
+}
+
+.blue{
+    color: var(--blue);
+}
+
+.red{
+    color:var(--red);
+}
