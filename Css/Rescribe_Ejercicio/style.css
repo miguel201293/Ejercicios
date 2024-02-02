@@ -1,0 +1,17 @@
+:root{
+    --colorfondo:#011212;
+    --colorelementos:#ff8800;
+    --anchoelemnto: 100px;
+    --altoelemento: 100px;
+    --bordeelemento:50px;
+}
+body {
+    background-color:var(--colorfondo);
+}
+
+.ball {
+    width: var(--anchoelemnto);
+    height: var(--altoelemento);
+    background-color:var(--colorelementos);
+    border-radius: var(--bordeelemento);
+}
