@@ -1,0 +1,11 @@
+:root{
+    --red:rgb(244,134,134);
+    --blue:rgb(0,170,255);
+    --black:rgb(163,71,168);
+}
+
+
+
+main{
+    background-color: blue;
+}
