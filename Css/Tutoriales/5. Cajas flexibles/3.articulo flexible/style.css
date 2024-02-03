@@ -1,0 +1,28 @@
+section{
+    border: 3px solid black;
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
+    gap: 1rem;
+}
+
+div{
+    width: 20ch;
+    height: 20ch;
+    border: 5px solid red;
+    font-size: 24px;
+    text-align: center;
+    flex-basis: 20ch;/*sirve para dar un ancho basico*/
+}
+
+div:nth-child(odd){
+    height: 10ch;
+}
+
+#one{
+    flex-shrink: 2; /* con esto nos aseguramos de que la caja encoja*/
+    flex-grow: 2;/* con esto nos aseguramos de que la caja agrande*/
+}
