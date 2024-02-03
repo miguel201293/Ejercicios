@@ -1,0 +1,39 @@
+section{
+    border:3px solid black;
+    margin-bottom: 1rem;
+    min-height: 300vh;
+}
+
+div{
+    width: 20ch;
+    height: 20ch;
+    border: 3px solid red;
+    margin: 1rem auto;
+}
+
+div:first-child{
+    position: static;
+    top:10ch;
+    left:10ch;
+}
+
+div:nth-child(2){
+    position:relative;
+    top:10ch;
+    left:10ch;
+    border:3px solid blue;
+}
+
+div:nth-child(3){
+    position:absolute;
+    top:10ch;
+    left:10ch;
+    border:3px solid purple;
+}
+
+div:nth-child(4){
+    position:sticky;
+    top:10ch;
+    left:10ch;
+    border:3px solid green;
+}
