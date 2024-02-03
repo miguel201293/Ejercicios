@@ -1,0 +1,30 @@
+
+section{
+    background-color: white;
+    border: 5px solid blue;
+}
+
+#recipe{
+    background-color: #9999ef;
+    color: white;
+    border: 3px solid black;
+    text-align: center;
+}
+.block{
+    border: 3px solid black;
+}
+table{
+    border: inherit;
+    color: initial;
+}
+ol{
+    all:unset;
+}´
+
+.importante{
+    font-weight: bold;
+}
+
+ section.block h2{
+    font-size: 36px;
+}
