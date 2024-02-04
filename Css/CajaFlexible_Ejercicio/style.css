@@ -1,0 +1,64 @@
+/*La barra lateral debe tener un tamaño igual a 200 px de ancho
+y debe ocupar toda la altura de la página.*/
+
+aside{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    background:linear-gradient(rgb(206, 176, 176),rgb(192, 192, 243));
+    border: 1px solid black;
+    padding: 20px;
+}
+
+/*Damos estilo al logo*/
+.cont-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    font-size: 36px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 25%;
+    color: aliceblue;
+    
+}
+
+/*Damos estilo a los enlaces*/
+.cont-enlaces{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
+}
+a {
+    color: #2b2b2b;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    color: #2b2bb2;
+    transition: all 0.3s;
+  }
+
+/*Damos estilos al avatar y nombre del usuario*/
+.cont-avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+#imagen-avatar{
+    width: 50px;
+    height: 50px;
+  }
+  p {
+    color: #2b2b2b;
+    font-size: 24px;
+  }
