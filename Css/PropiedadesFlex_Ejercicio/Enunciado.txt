@@ -1,0 +1,1 @@
+Replica el diseño presente en activo/layout1.png, usando la propiedad CSS Flexbox.
