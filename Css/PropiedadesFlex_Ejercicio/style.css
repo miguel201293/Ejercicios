@@ -1,0 +1,72 @@
+/*Damos propiedades al body*/
+html,body{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    background-color: white;
+}
+/*Damos estilo a las ul y li*/
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+    background-color: #fff;
+}
+/*Damos estilo a la sección verde*/
+#green{
+    display:flex;
+    flex-direction: column;
+    order: 3;
+    justify-content: flex-start;
+    align-items: center;
+    width: 10%;
+    background-color: aquamarine;
+}
+/* Damos estilo a la sección amarilla*/
+#yellow{
+    display:flex;
+    flex-direction: column;
+    order: 1;
+    justify-content: flex-start;
+    align-items: center;
+    width: 15%;
+    background-color:rgb(255, 255, 179);
+}
+/* Damos estilo a la sección naranja*/
+#orange{
+    display:flex;
+    flex-direction: column;
+    order: 4;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    background-color:rgb(250, 214, 148);
+}
+/* Damos estilo a la seccion roja*/
+#red{
+    display:flex;
+    flex-direction: column;
+    order: 2;
+    justify-content: flex-start;
+    align-items: center;
+    width: 15%;
+    background-color:rgb(255, 167, 167);
+}
+/* Damos estilo a la seccion Azul*/
+#blue{
+    display:flex;
+    flex-direction: column;
+    order: 5;
+    justify-content: flex-start;
+    align-items: center;
+    width: 10%;
+    background-color:rgb(184, 184, 255);
+}
