@@ -1,0 +1,22 @@
+section.calculadora{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 50px 100px 100px 100px 100px 100px;
+    border: 1px solid rgb(211, 206, 198);
+}
+
+#pantalla{
+    grid-column: span 4;
+    background-color: lightslategray;
+    border: inherit;
+}
+
+#suma{
+    grid-column: span 1;
+    border: inherit;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(175, 175, 252);
+}
