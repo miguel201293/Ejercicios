@@ -1,0 +1,21 @@
+Agregue a la página una barra de navegación con 3 enlaces (inicio, acerca de, contacto)
+y una barra lateral a la derecha con una imagen.
+
+1.El cuerpo debe tener un color de fondo #fafbff.
+2.La barra de navegación debe tener un color de fondo #234567.
+3.Los enlaces deben tener efecto de desplazamiento CSS (#ff784d),
+transición de 0,3 s y ninguna decoración de texto.
+4.La barra lateral debe ocupar aproximadamente una cuarta parte del ancho de la ventana
+y tener el color de fondo #edefff.
+Si está en vista móvil (< 990px) la barra lateral debería adaptarse al chico del artículo.
+5.Las imágenes al final de los artículos deben tener una altura mínima de 300 px.
+Si está en vista móvil, deberán estar alineados uno debajo del otro y tener un ancho igual al máximo disponible.
+6.El pie de página debe tener el color de fondo #012345.
+7.El formulario de suscripción debe estar alineado a la derecha y tener texto blanco.
+La parte inferior debe tener el color de fondo #ff784d y texto blanco.
+La parte inferior debe tener un efecto de desplazamiento CSS 
+(los colores se invierten con una transición de 0,4 s)
+8.El artículo, la barra lateral y el pie de página
+deben tener un espacio interno de 8 píxeles verticalmente y 16 píxeles horizontalmente.
+9.En la vista móvil, la barra lateral debe tener un padding-top igual a 16px
+y un padding-bottom igual a 32px.

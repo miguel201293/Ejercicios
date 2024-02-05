@@ -1,9 +1,12 @@
 section.calculadora{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    border: 1px solid rgb(211, 206, 198);
-    width: 25%;
-    height: 25%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    width: 378px;
+    height: 386px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #pantalla{
@@ -11,169 +14,172 @@ section.calculadora{
     color: white;
     text-align: right;
     font-size: 36px;
-    background-color: lightslategray;
-    border: inherit;
+    background-color: #424c52;
+    padding: 10px;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #suma{
     grid-column: span 1;
-    border: inherit;
+    background-color: #d2dce4;
     text-align: center;
     justify-content: center;
     font-size: 36px;
     font-weight: bold;
-    background-color: rgb(175, 175, 252);
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #resta{
     grid-column: span 1;
-    border: inherit;
+    background-color: #d2dce4;
     text-align: center;
     justify-content: center;
     font-size: 36px;
     font-weight: bold;
-    background-color: rgb(175, 175, 252);
+    border: 1px solid rgb(211, 206, 198);
+    
 }
 
 #multiplicacion{
     grid-column: span 1;
-    border: inherit;
+    background-color: #d2dce4;
     text-align: center;
     justify-content: center;
     font-size: 36px;
     font-weight: bold;
-    background-color: rgb(175, 175, 252);
+    border: 1px solid rgb(211, 206, 198);
+    
 }
 
 #division{
     grid-column: span 1;
-    border: inherit;
+    background-color: #d2dce4;
     text-align: center;
     justify-content: center;
     font-size: 36px;
     font-weight: bold;
-    background-color: rgb(175, 175, 252);
+    border: 1px solid rgb(211, 206, 198);
+    
 }
 
 #cero{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #uno{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #dos{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #tres{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #cuatro{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #cinco{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #seis{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #siete{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #ocho{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #nueve{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #punto{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #ac{
     grid-column: span 1;
-    border: inherit;
     text-align: center;
     justify-content: center;
     font-size: 36px;
-    background-color: rgb(212, 212, 248);
+    background-color: #eff2f5;
+    border: 1px solid rgb(211, 206, 198);
 }
 
 #igual{
     grid-column-start: 4;
     grid-row-start: 3;
     grid-row-end: 7;
-    border: inherit;
     text-align: center;
     justify-content: center;
     align-items: center;
     padding: 80px 0px;
     font-size: 36px;
-    background-color: rgb(255, 125, 125);
+    background-color: #f77077;
 }
 
 
