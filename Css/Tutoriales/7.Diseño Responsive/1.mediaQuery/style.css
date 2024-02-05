@@ -1,0 +1,21 @@
+.contenedor{
+    display: flex;
+}
+
+div{
+    flex-basis: 50%;
+    border: 3px solid black;
+    background: white;
+    font-size: 36px;
+}
+
+@media (min-width: 768px){
+    div:first-child{
+        flex-basis: cal(100%/3);
+        background: red;
+        color:white
+    }
+    div:nth-child(2){
+        flex-basis: cal(100%/3*2); 
+    }
+}
