@@ -1,13 +1,6 @@
 section.calculadora{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-areas: 
-    "pantalla pantalla pantalla pantalla"
-    "suma resta multiplicacion division"
-    "siete ocho nueve igual"
-    "cuatro cinco seis igual"
-    "uno dos tres igual"
-    "cero punto ac igual";
     border: 1px solid rgb(211, 206, 198);
     width: 25%;
     height: 25%;
