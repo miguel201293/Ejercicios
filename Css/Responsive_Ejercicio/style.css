@@ -1,0 +1,120 @@
+/*Damos estilo al body*/
+body{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: #fafbff;
+}
+main,
+aside,
+footer {
+	padding: 8px 16px;
+}
+/*Damos estilo al nav*/
+nav{
+    background-color: #234567;
+    grid-column: span 2;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav > ul > li{
+    margin: 8px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+
+a:hover{
+    color: #ff784d;
+}
+/*Damos estilo al main*/
+main > article {
+    display: grid;
+    grid-template-columns: min-content auto;
+}
+
+.text{
+    grid-column: span 2;
+}
+
+.imag1{
+    max-height: 300px;
+    object-fit: contain;
+    grid-column: span 1;
+}
+
+.imag2{
+    max-height: 300px;
+    object-fit: contain;
+    grid-column: span 1;
+}
+
+/*Damos estilo a la barra lateral*/
+aside{
+    background-color: #edefff;
+}
+
+aside > img{
+    width: 100%;
+	object-fit: contain;
+}
+
+/*Damos estilo al footer*/
+footer{
+    background-color: #012345;
+    grid-column: span 2;
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+/*Damos estilo al formulario*/
+.boton{
+    background-color: #ff784d;
+	color: white;
+	transition: ease-in-out 0.4s;
+}
+
+.boton:hover {
+	color: #ff784d;
+	background-color: white;
+}
+/*Hacemos que sea responsive para moviles*/
+@media (max-width: 899px) {
+    body {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr auto auto 1fr;
+		grid-template-areas:
+            "nav"
+            "main"
+            "aside"
+            "footer";
+	}
+
+	main > article {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto 1fr 1fr;
+		grid-template-areas:
+            "text"
+            "img1"
+            "img2";
+	}
+
+	aside {
+		padding-top: 32px;
+		padding-bottom: 32px;
+	}
+
+	.imag1,
+	.imag2 {
+		max-height: initial;
+		width: 100%;
+	}
+}
