@@ -1,0 +1,6 @@
+Intente replicar el diseño que se muestra en active/cards-desktop.jpg,
+cards-mobile.jpg (ancho máximo: 375 px),
+cards-tablet.jpg (ancho máximo: 768 px).
+La página creada debe ser responsiva,
+tanto para la vista de tableta &#40;max-width: 768px&#41
+como para la vista móvil.&#40;max-width: 375px&#41
