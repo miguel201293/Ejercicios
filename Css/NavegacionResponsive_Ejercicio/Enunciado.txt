@@ -1,0 +1,2 @@
+Haga responsivo el ejercicio 'Nav': por debajo de 768 píxeles la barra de navegación se reemplaza por un menú de hamburguesa sin funcionalidades, simplemente aparece.
+Intente crear el menú de hamburguesas con reglas CSS y usando un ícono.
