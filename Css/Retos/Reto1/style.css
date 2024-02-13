@@ -23,13 +23,11 @@ main{
     background: white;
     width: 60%;
     height: 30px;
-    margin:5px auto;
+    margin:10px auto;
 }
 
 /*Menu de hamburguesa cerrado*/
 .hamburguesa-close button {
-    display: flex;
-    align-items: center;
     background-color: rgb(87, 240, 87);
     border: none;
     cursor: pointer;
@@ -42,9 +40,10 @@ main{
     display: block;
     border-radius: 5px;
     background: white;
-    width: 60%;
-    height: 30px;
-    transform: rotate(-45deg);
+    width:60%;
+    height:30px;
+    margin:0 auto;
+    transform: translateY(14px) rotate(-45deg);
 }
 
 .linea-2{
@@ -53,7 +52,8 @@ main{
     background: white;
     width: 60%;
     height: 30px;
-    transform: rotate(45deg);
+    margin:0 auto;
+    transform:translateY(-14px) rotate(45deg);
 }
 
 
