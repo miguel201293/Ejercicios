@@ -7,7 +7,7 @@ main{
     gap: 20px;
 }
 
-
+/*Menu de hamburguesa abierto*/
 .hamburguesa-open button {
     background-color: rgb(87, 240, 87);
     border: none;
@@ -26,33 +26,42 @@ main{
     margin:5px auto;
 }
 
+/*Menu de hamburguesa cerrado*/
 .hamburguesa-close button {
+    display: flex;
+    align-items: center;
     background-color: rgb(87, 240, 87);
     border: none;
     cursor: pointer;
     padding: 0;
     width: 300px;
     height:300px;
-    margin-left: 20px;
 }
 
-.hamburguesa-close button .linea-superior{
+.linea-1{
     display: block;
     border-radius: 5px;
     background: white;
     width: 60%;
     height: 30px;
-    margin:5px auto;
-    rotate: -45deg;
+    transform: rotate(-45deg);
 }
 
-.hamburguesa-close button .linea-baja{
+.linea-2{
     display: block;
     border-radius: 5px;
     background: white;
     width: 60%;
     height: 30px;
-    margin:5px auto;
-    rotate: 45deg;
+    transform: rotate(45deg);
 }
+
+
+
+
+
+
+
+
+
 
