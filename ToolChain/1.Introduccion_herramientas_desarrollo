@@ -1,0 +1,7 @@
+En esta lección hablaremos de como configurar tu entorno de desarrollo para 
+que sea de lo mas util para tu pagina web.
+las herramientas que utilizaremos seran:
+
+1) linter: sirve para buscar errores de sintaxis u otros errores  poder solucionarlos.
+2) Prettier: sirve para dar formato a nuestro html o css para que sea mas legible
+3) nmp.
