@@ -1,0 +1,24 @@
+Descripción general del administrador de paquetes de nodo (npm), que usará en la cmd
+a lo largo de proximas lecciones así como tambien cuando estes desarrollando web.
+
+NPM: es una forma de organizar una gran cantidad de paquetes, así que diferentes piezas
+de código de JS que existen en internet. Entonces se puede decir que NPM es una gran 
+BBDD de código de JS y es facilmente descargable y facil de compartir. Y es algo similar
+a como funciona GITHUB con nuestros proyectos. La principal diferencia entre Github y NPM
+es que el codigo ya esta empaquetado por el uso de otros desarrolladores. Cuando nos referimos
+a los paquetes, son fragmentos de codigo que se pueden importar facilmente en otro proyecto, Y
+luego utilzarlo en el como parte de una Base de codigo mas grande. Entonces el administrador
+de paquetes de nodo sirve paquetes. Muy a menudo, cuando importamos diferentes piezas de codigo
+a nuestra base de codigo, tenemos que lidiar con muchas compatibilades asi como asegurarnos
+que todo funciona correctamente entre el nuevo codigo y el codigo entrante. Lo que hace
+el administrador de paquetes de nodos por nosotros es que estos paquetes son autonomos.Entonces
+cuando lo incorporamos a nuestros codigo, no tenemos que preocuparnos por la compatibilidad.
+Solo necesitamos leer la documentacion de ese paquete en particular, para saber como usarlo.
+y existira en su pequeño entorno al lado del codigo que estamos generando. Nodo es el tiempo
+de ejecucion de JavaScript. Lo que significa que es un entorno de JavaScript donde podemos 
+ejecutar codigo como en un servidor o otro proceso. Antes de que existiera nodo, se utilizaba
+otro lenguaje de programacion para el servidor para porder utilizar Java, C#, C++. NPM esta
+construido en Nodo, y no es necesario usar nodo. Entonces, si estamos haciendo un proyecto frontal
+el administrador de paquete de nodo esta activo, incluso si no estamos utilizando el nodo especificamente.
+
+documentación sobre NPM (https://docs.npmjs.com/about-npm)
