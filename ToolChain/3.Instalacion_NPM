@@ -1,0 +1,4 @@
+Para saber si lo tenemos instalado.
+node -v : nos da la version de node.
+Para saber si npm esta instalado.
+npm -v
