@@ -1,0 +1,30 @@
+<!--A partir del ejercicio llamado 'Solicitudes de red - Lista de tareas pendientes',
+cree dinámicamente una lista de elementos <li>que contengan el título de tareas pendientes
+(propiedad de título en la colección de objetos devueltos por la respuesta)
+y agréguela al elemento '.todo-list'.
+NB: El cuerpo de la respuesta contiene la lista Todos en formato Json,
+utilice el método .json presente en la respuesta para realizar la deserialización.-->
+<html>
+  <body>
+    <div id="container" style="display: flex; align-items: center;"></div>
+    <ul class="todo-list"></ul>
+  </body>
+</html>
+
+<script>
+  // creamos el contendor de la lista.
+  const lista = document.querySelector(".todo-list");
+  // Creamos una variable con la url
+  const URL = "https://jsonplaceholder.typicode.com/todos"
+  // Realizamos la llamada a la api
+  fetch(URL)
+    .then(response => response.json())
+    .then(data =>{
+        data.forEach(tareas => {
+            const listItem = document.createElement("li");
+            listItem.textContent = tareas.title
+            lista.appendChild(listItem);
+        });
+    })
+    .catch(error => console.error("Error al obtener los datos:", error));
+</script>
